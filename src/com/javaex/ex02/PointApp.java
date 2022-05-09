@@ -44,13 +44,13 @@ public class PointApp {
 		System.out.println(p00.equals(p01));		//결과값 : false
 	
 		// == 변수의 값이 같냐?
-		//기본자료형은 실제 갑시 같냐?
-		//기본자료형은 이회에 값은 (주소) 주소가 같냐?
+		//기본자료형은 실제 값이값이냐?
+		//기본자료형은 이외외 값은 (주소) 주소가 같냐?
 		
 		System.out.println(p00==p01);
 		System.out.println(p01==p02);
 		System.out.println(p02==p00);
-		System.out.println(p02==p03);		//주소가 값다 so it's true
+		System.out.println(p02==p03);		//주소가 같다so it's true
 		
 	
 	
